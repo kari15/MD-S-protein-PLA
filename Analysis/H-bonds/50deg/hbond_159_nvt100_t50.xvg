@@ -1,0 +1,33 @@
+# This file was created Sun Jul  4 21:18:55 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1211_nvt100_t50
+# Command line:
+#   gmx_mpi hbond -f md_0_159_noPBC_whole.xtc -s md_0_1.tpr -num hbond_159_nvt100_t50.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.16576e+06           7           4
+1.16676e+06           8           7
+1.16776e+06           8           8
+1.16876e+06           7           7
+1.16976e+06           9           6
+1.17076e+06           8           9
+1.17176e+06           5           6
+1.17276e+06           7          10

@@ -1,0 +1,66 @@
+# This file was created Mon Jul 26 05:50:32 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1211_nvt100_t50
+# Command line:
+#   gmx_mpi hbond -f md_185_191_concat_whole.xtc -s md_0_1.tpr -num hbond_185_191_nvt100_t50.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.65664e+06           9           7
+1.65764e+06           4           7
+1.65864e+06           9          18
+1.65964e+06           8          15
+1.66064e+06           8          10
+1.66205e+06           8          10
+1.66305e+06           9           9
+1.66405e+06          10          12
+1.66505e+06          13           5
+1.66605e+06           9           3
+1.66705e+06           7           7
+1.66783e+06          12          14
+1.66883e+06          12           7
+1.66983e+06           8           4
+1.67083e+06           9           5
+1.67183e+06           8          14
+1.67283e+06          10           8
+1.67343e+06           7           8
+1.67443e+06           8           8
+1.67543e+06          10          16
+1.67643e+06           8           3
+1.67743e+06          10           4
+1.67843e+06          14          15
+1.67951e+06          10          13
+1.68051e+06           9          16
+1.68151e+06          10           5
+1.68251e+06           8          15
+1.68351e+06           7           7
+1.68451e+06          10          11
+1.68532e+06           7           7
+1.68632e+06           7          11
+1.68732e+06           6           7
+1.68832e+06           8           6
+1.68932e+06           3           3
+1.69032e+06           9           6
+1.69093e+06           9           8
+1.69193e+06           8          12
+1.69293e+06           8           4
+1.69393e+06          10          15
+1.69493e+06           7           8
+1.69593e+06          10          11

@@ -1,0 +1,67 @@
+# This file was created Tue Mar 16 15:40:37 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1211_nvt100_t50
+# Command line:
+#   gmx_mpi hbond -f md_102_107_concat_whole.xtc -s md_0_1.tpr -num hbond_102_107_nvt100_t50.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+    740580           6           7
+    741580           5           5
+    742580           4           8
+    743580           6           5
+    744580           2           2
+    745580           3           4
+    746580           3           7
+    747340           4           2
+    748340           7           6
+    749340           2           2
+    750340           7           4
+    751340           6           7
+    752340           5           4
+    753340           3          10
+    754340           8           9
+    755690           6           6
+    756690          10          11
+    757690           8           5
+    758690           7           6
+    759690           3           5
+    760690           5           1
+    761690           9          11
+    762900           8           4
+    763900           6           6
+    764900           5           4
+    765900           4           1
+    766900           3           7
+    767900           4           7
+    768900           1           7
+    769900           4           6
+    770680           2           6
+    771680           7           5
+    772680           6           9
+    773680           5           5
+    774720           6           7
+    775720           6           6
+    776720           4           6
+    777720           3           2
+    778720           8           6
+    779720           4           4
+    780720           4           7
+    781720           4           6

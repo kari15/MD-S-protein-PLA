@@ -1,0 +1,95 @@
+# This file was created Wed Jul 14 09:01:12 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1211_nvt100_t50
+# Command line:
+#   gmx_mpi hbond -f md_0_177_noPBC_whole.xtc -s md_0_1.tpr -num hbond_177_nvt100_t50.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.33425e+06           6           6
+1.33525e+06           8          14
+1.33625e+06           9           8
+1.33725e+06           7           8
+1.33825e+06           5           2
+1.33925e+06           7           6
+1.34025e+06           9           8
+1.34125e+06           8           6
+1.34225e+06           5           7
+1.34325e+06           5           2
+1.34425e+06           5           9
+1.34525e+06           7           7
+1.34625e+06           7           5
+1.34725e+06           6           9
+1.34825e+06          10           8
+1.34925e+06           7           9
+1.35025e+06           7           9
+1.35125e+06           8           7
+1.35225e+06           6           6
+1.35325e+06           7           3
+1.35425e+06           4           6
+1.35525e+06           2           4
+1.35625e+06           6           9
+1.35725e+06           9           6
+1.35825e+06           8           9
+1.35925e+06           2           1
+1.36025e+06           5          11
+1.36125e+06           3           7
+1.36225e+06           5           9
+1.36325e+06           6          12
+1.36425e+06           9           6
+1.36525e+06           8           2
+1.36625e+06           6           7
+1.36725e+06           4           8
+1.36825e+06           5           9
+1.36925e+06           8           7
+1.37025e+06           4           9
+1.37125e+06           6           9
+1.37225e+06           6           9
+1.37325e+06           5           7
+1.37425e+06           4           5
+1.37525e+06           5           6
+1.37625e+06           4           8
+1.37725e+06           6           7
+1.37825e+06           4           6
+1.37925e+06           2           2
+1.38025e+06           6           4
+1.38125e+06           7           5
+1.38225e+06           7           5
+1.38325e+06           4           7
+1.38425e+06           6           6
+1.38525e+06           4           5
+1.38625e+06           4           5
+1.38725e+06           2           3
+1.38825e+06           6           3
+1.38925e+06           6          12
+1.39025e+06           6           2
+1.39125e+06           5           6
+1.39225e+06           2           8
+1.39325e+06           2           5
+1.39425e+06           4           5
+1.39525e+06           4           2
+1.39625e+06           6           4
+1.39725e+06           5           5
+1.39825e+06           6          13
+1.39925e+06           5           5
+1.40025e+06           4          12
+1.40125e+06           7           7
+1.40225e+06           4           5
+1.40325e+06           3           3

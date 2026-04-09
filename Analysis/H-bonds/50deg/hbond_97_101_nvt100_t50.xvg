@@ -1,0 +1,62 @@
+# This file was created Mon Mar  8 10:07:58 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1211_nvt100_t50
+# Command line:
+#   gmx_mpi hbond -f md_97_101_concat_whole.xtc -s md_0_1.tpr -num hbond_97_101_nvt100_t50.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+    704590           9           8
+    705590           7           5
+    706590           9           7
+    707590           4           4
+    708590           8           7
+    709590          10          10
+    710590           9           6
+    711480           9          14
+    712480          10           5
+    713480           8          10
+    714480           8           8
+    715480          10           9
+    716480           5           5
+    717480           7          12
+    718480           9           4
+    719690           6           4
+    720690           7           2
+    721690           3           6
+    722690           5           3
+    723690           5           4
+    724690           8          15
+    725690           7          11
+    726220           7          11
+    727220           9           9
+    728220           5           9
+    729220           5           8
+    730220           6           5
+    731220           3           4
+    732330           3           5
+    733330           7           3
+    734330           4           2
+    735330           4           7
+    736330           8           6
+    737330           8           4
+    738330           3           5
+    739330           4           2
+    740330           5           9

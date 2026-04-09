@@ -1,0 +1,79 @@
+# This file was created Thu Jun 17 01:21:52 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1211_nvt100_t50
+# Command line:
+#   gmx_mpi hbond -f md_152_158_concat_whole.xtc -s md_0_1.tpr -num hbond_152_158_nvt100_t50.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.1121e+06           5           4
+1.1131e+06           7           4
+1.1141e+06           6           8
+1.1151e+06           7           5
+1.1161e+06           9           6
+1.1171e+06           6           5
+1.1181e+06           8          11
+1.1191e+06          11          12
+1.12038e+06           9           4
+1.12138e+06          10           4
+1.12238e+06           7           6
+1.12338e+06          11          13
+1.12438e+06          11           9
+1.12538e+06           8          11
+1.12638e+06           9           8
+1.12724e+06          10          15
+1.12824e+06          14          15
+1.12924e+06           8           9
+1.13024e+06           9           8
+1.13124e+06           9          13
+1.13224e+06          10           7
+1.13324e+06          13          14
+1.13424e+06          13           9
+1.13564e+06          11          12
+1.13664e+06          10          12
+1.13764e+06          11          13
+1.13864e+06          12           6
+1.13964e+06           9          14
+1.14064e+06           9           2
+1.14164e+06          13          12
+1.14264e+06          15          12
+1.14353e+06          11          11
+1.14453e+06          16          14
+1.14553e+06          16          12
+1.14653e+06          10          14
+1.14753e+06           7           4
+1.14853e+06           8           6
+1.14953e+06           6           9
+1.15062e+06           6           3
+1.15162e+06           8           6
+1.15262e+06           4          11
+1.15362e+06           7          10
+1.15462e+06           5           7
+1.15562e+06           7           6
+1.15662e+06           6           7
+1.15743e+06           6           7
+1.15843e+06           5           7
+1.15943e+06           8          12
+1.16043e+06           9           8
+1.16143e+06           7           8
+1.16243e+06           3           8
+1.16343e+06           7           8
+1.16443e+06           9           2
+1.16543e+06           7           9

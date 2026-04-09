@@ -1,0 +1,86 @@
+# This file was created Wed May 26 12:12:23 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1211_nvt100_t50
+# Command line:
+#   gmx_mpi hbond -f md_128_135_concat_whole.xtc -s md_0_1.tpr -num hbond_128_135_nvt100_t50.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Grunge ROck MAChoS
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+    932400           6           7
+    933400           7           2
+    934400           7           2
+    935400           7           7
+    936400           9           4
+    937400           8           7
+    938400           8          10
+    938980           7           7
+    939980           7           5
+    940980           7           8
+    941980           7           6
+    942980           7          10
+    943980           8           6
+    944980           6           0
+    945980           7           3
+    947170           8           8
+    948170          11           6
+    949170           9           7
+    950170           8           4
+    951170           7           4
+    952170           5           2
+    953170           8           3
+    954170          10           3
+    955530          10           6
+    956530           9           3
+    957530           8           5
+    958530           9           8
+    959530          10           9
+    960530          10           5
+    961530           7           6
+    962530          10          11
+    963880           8           8
+    964880           9           6
+    965880           5           4
+    966880           6           5
+    967880           6           3
+    968880           7           3
+    969880           8           8
+    970810           8           4
+    971810           8           9
+    972810           9          10
+    973810          14           9
+    974810          10           9
+    975810           7           7
+    976810           9           9
+    977680          10           9
+    978680          10          12
+    979680           7           6
+    980680           9          13
+    981680           8          17
+    982680           8           8
+    983680          10           8
+    984200           7           9
+    985200           9          12
+    986200          10           7
+    987200           9           4
+    988200           9           6
+    989200          12           8
+    990200           8           8
+    991200           7           5
+    992200           6           4

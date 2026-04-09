@@ -1,0 +1,86 @@
+# This file was created Tue Mar  2 17:04:28 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1211_nvt100_t50
+# Command line:
+#   gmx_mpi hbond -f md_89_96_concat_whole.xtc -s md_0_1.tpr -num hbond_89_96_nvt100_t50.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+    643720           3           5
+    644720          11           9
+    645720           8          12
+    646720           6           3
+    647720           5           6
+    648720           4           9
+    649720           6           4
+    650790           9           8
+    651790           6           9
+    652790           9          12
+    653790           8           3
+    654790           9           6
+    655790           6           5
+    656790           7           6
+    657790           6           4
+    659130           7           4
+    660130           7           3
+    661130           3           5
+    662130          10           3
+    663130           9           5
+    664130           9           6
+    665130           9           6
+    666440           6           1
+    667440           6           7
+    668440           6           6
+    669440           3           3
+    670440           5           5
+    671440           8           5
+    672440           8          12
+    673440           7           6
+    674530           8           5
+    675530           8          11
+    676530           9           8
+    677530           9          11
+    678530          11           7
+    679530          12          12
+    680530           7          10
+    681530           7           7
+    682820           8           7
+    683820           9          11
+    684820           9          11
+    685820           4           4
+    686820           6          11
+    687820           7           3
+    688820           5           2
+    689820           1           8
+    690680           8           5
+    691680           7           6
+    692680           8           7
+    693680           5           4
+    694680           4           2
+    695680           7           8
+    696680           7           9
+    697680           9          12
+    698220          10           8
+    699220           9           7
+    700220          10          11
+    701220           7          10
+    702220           6          10
+    703220          11          11
+    704220           8           9
