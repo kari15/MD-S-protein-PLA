@@ -1,0 +1,117 @@
+# This file was created Thu Jul 21 18:29:41 2022
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_0923_nvt100_t3_part1
+# Command line:
+#   gmx_mpi hbond -f md_109_120_concat_whole.xtc -s md_0_1.tpr -num hbond_109_120_nvt100_t3.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+    915880           6           5
+    916880           5           7
+    917880           7           7
+    918880           5           4
+    919880           6          10
+    920880           6           8
+    921880           5           4
+    922880           8          13
+    923610           8           8
+    924610           9           7
+    925610           7           6
+    926610           8           9
+    927610           7           7
+    928610           7           8
+    929610           6           9
+    930610           8          10
+    931610           6           6
+    932370           6           7
+    933370           6          10
+    934370           5           6
+    935370           3           9
+    936370           5           4
+    937370           6           8
+    938370           7           4
+    939370           3           3
+    940750           6           7
+    941750           7           5
+    942750           7           4
+    943750           6           7
+    944750           4           4
+    945750           5           6
+    946750           6           4
+    947750          10           8
+    948850           8           8
+    949850           5           4
+    950850           8           9
+    951850           5           7
+    952850           7           9
+    953850           5           5
+    954850           7           8
+    956330           7           7
+    957330           7           2
+    958330           5           9
+    959330           7           8
+    960330           7           8
+    961330           7          12
+    962330           6           8
+    963330           7           4
+    964330           7           4
+    964940           5           4
+    965940           5           6
+    966940           5           8
+    967940           4           5
+    968940           5           3
+    969940           4           6
+    970940           5           2
+    971940           5           8
+    972940           5          10
+    973910           8           6
+    974910           6           5
+    975910           4           7
+    976910           8           2
+    977910           6           6
+    978910           6           9
+    979910           3           8
+    980910           5           6
+    982340           5           6
+    983340           4           2
+    984340           6           4
+    985340           5           6
+    986340           7          10
+    987340           5          12
+    988340           7           3
+    989340           6           7
+    990840           7           4
+    991840           7           3
+    992840           7           6
+    993840           5           7
+    994840           4           3
+    995840           5           6
+    996840           3           5
+    997840           4           9
+    998840           5           4
+     1e+06           4           7
+ 1.001e+06           4          10
+ 1.002e+06           3           7
+ 1.003e+06           5           3
+ 1.004e+06           3           3
+ 1.005e+06           4           5
+ 1.006e+06           3           1
+ 1.007e+06           2           2
+ 1.008e+06           2           1
