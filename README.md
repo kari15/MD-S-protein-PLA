@@ -12,10 +12,6 @@ This repository shares simulation data and relevant analysis results from molecu
 
 ```
 MD-S-protein-PLA/
-├── Simulation/
-│   ├── 3deg/
-│   ├── 24deg/
-│   └── 50deg/
 └── Analysis/
     ├── H-bonds/
     │   ├── 3deg/
@@ -41,22 +37,6 @@ MD-S-protein-PLA/
 
 ## Data Description
 
-### Simulation Data
-
-The `Simulation/` folder contains MD simulation files organized by temperature:
-
-- **3deg/**: Simulation data at 3°C
-- **24deg/**: Simulation data at 24°C  
-- **50deg/**: Simulation data at 50°C
-
-Each temperature subfolder contains:
-
-| File Type | Description |
-|-----------|-------------|
-| `.pdb` | Initial protein structure at 0 ns |
-| `.tpr` | Portable binary run input file (GROMACS topology and parameters) |
-| `.xtc` | Compressed trajectory file (protein coordinates only) |
-
 ### Analysis Data
 
 The `Analysis/` folder contains post-processing analysis results organized by analysis type and temperature:
@@ -71,19 +51,12 @@ Each analysis subfolder is further organized by temperature (3deg/, 24deg/, 50de
 
 ## File Access and Additional Data
 
-**Note**: The trajectory files provided contain protein coordinates only. For access to:
-- Complete system trajectory files including PLA substrate
-- Additional simulation files
-- Raw data files
+**Note**: For access to:
+- System trajectory files
 
 Please contact: **karin.hasegawa@stonybroook.edu**
 
 ## Usage Guidelines
-
-### File Formats
-- **PDB files**: Can be opened with molecular visualization software (PyMOL, VMD, ChimeraX)
-- **TPR files**: GROMACS binary files containing simulation parameters
-- **XTC files**: GROMACS compressed trajectory files (require GROMACS or compatible software)
 
 ## License
 
