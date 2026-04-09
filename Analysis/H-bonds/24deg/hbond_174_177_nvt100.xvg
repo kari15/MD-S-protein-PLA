@@ -1,0 +1,54 @@
+# This file was created Sun Jun  6 21:33:58 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1027_nvt100/water_1027_nvt100
+# Command line:
+#   gmx_mpi hbond -f md_174_177_concat_whole.xtc -s md_0_1.tpr -num hbond_174_177_nvt100.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.30266e+06           4           4
+1.30366e+06           2           6
+1.30466e+06           2           3
+1.30566e+06           2          11
+1.30666e+06           3           7
+1.30766e+06           2           7
+1.30866e+06           2           2
+1.30923e+06           1           6
+1.31023e+06           4           6
+1.31123e+06           4           5
+1.31223e+06           3           5
+1.31323e+06           3           4
+1.31423e+06           5           4
+1.31523e+06           4          15
+1.31623e+06           7           6
+1.3172e+06           3           4
+1.3182e+06           6           5
+1.3192e+06           7           3
+1.3202e+06           4           9
+1.3212e+06           6           7
+1.3222e+06           4           3
+1.3232e+06           6          10
+1.32378e+06           6           7
+1.32478e+06           6           5
+1.32578e+06           3           4
+1.32678e+06           4           5
+1.32778e+06           5           4
+1.32878e+06           6           7
+1.32978e+06           3           6

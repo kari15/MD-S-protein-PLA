@@ -1,0 +1,58 @@
+# This file was created Sun Jul  4 20:45:31 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1027_nvt100/water_1027_nvt100
+# Command line:
+#   gmx_mpi hbond -f md_184_188_concat_whole -s md_0_1.tpr -num hbond_184_188_nvt100.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.37367e+06           3           5
+1.37467e+06           4           3
+1.37567e+06           4           4
+1.37667e+06           1           3
+1.37802e+06           2           7
+1.37902e+06           3           9
+1.38002e+06           4           3
+1.38102e+06           2           5
+1.38202e+06           4           7
+1.38302e+06           3           5
+1.38402e+06           2           5
+1.3851e+06           4          11
+1.3861e+06           3           4
+1.3871e+06           3           5
+1.3881e+06           3           9
+1.3891e+06           3           7
+1.3901e+06           3           6
+1.3911e+06           3           7
+1.3921e+06           3           5
+1.39272e+06           9           4
+1.39372e+06           7          10
+1.39472e+06           3           8
+1.39572e+06           5           9
+1.39672e+06           3           6
+1.39772e+06           2           5
+1.39872e+06           4          13
+1.39944e+06           4           8
+1.40044e+06           3           4
+1.40144e+06           3           5
+1.40244e+06           4           7
+1.40344e+06           4           8
+1.40444e+06           4           6
+1.40544e+06           5           6

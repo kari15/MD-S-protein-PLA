@@ -1,0 +1,33 @@
+# This file was created Wed Feb 17 14:19:38 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1027_nvt100/water_1027_nvt100
+# Command line:
+#   gmx_mpi hbond -f md_0_121_noPBC_whole.xtc -s md_0_1.tpr -num hbond_121_nvt100.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+    932890           5           6
+    933890           4           2
+    934890           4           9
+    935890           5           3
+    936890           5           8
+    937890           3           6
+    938890           6           9
+    939890           3           2

@@ -1,0 +1,33 @@
+# This file was created Wed Feb 17 14:20:06 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1027_nvt100/water_1027_nvt100
+# Command line:
+#   gmx_mpi hbond -f md_0_123_noPBC_whole.xtc -s md_0_1.tpr -num hbond_123_nvt100.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+    946350           3           2
+    947350           4           4
+    948350           2           6
+    949350           2           6
+    950350           2           2
+    951350           2          10
+    952350           4           9
+    953350           4           6

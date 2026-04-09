@@ -1,0 +1,63 @@
+# This file was created Tue Jun  1 03:38:32 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1027_nvt100/water_1027_nvt100
+# Command line:
+#   gmx_mpi hbond -f md_169_173_concat_whole.xtc -s md_0_1.tpr -num hbond_169_173_nvt100.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.26671e+06           3           9
+1.26771e+06           2           3
+1.26871e+06           3           2
+1.26971e+06           2           2
+1.27071e+06           2           1
+1.27171e+06           3           1
+1.27271e+06           2           2
+1.27371e+06           2           4
+1.27444e+06           1           5
+1.27544e+06           1           0
+1.27644e+06           2           4
+1.27744e+06           2           2
+1.27844e+06           3           4
+1.27944e+06           2           3
+1.28044e+06           2           0
+1.28096e+06           4           6
+1.28196e+06           4           5
+1.28296e+06           3           3
+1.28396e+06           0           6
+1.28496e+06           1           2
+1.28596e+06           2           2
+1.28696e+06           2           4
+1.28797e+06           2           4
+1.28897e+06           4           4
+1.28997e+06           1           2
+1.29097e+06           2           1
+1.29197e+06           2           7
+1.29297e+06           2           4
+1.29397e+06           1           2
+1.29497e+06           1           3
+1.29553e+06           4           4
+1.29653e+06           5           4
+1.29753e+06           1           5
+1.29853e+06           1           3
+1.29953e+06           2           6
+1.30053e+06           1           6
+1.30153e+06           5           9
+1.30253e+06           4           2

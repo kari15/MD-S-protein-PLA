@@ -1,0 +1,64 @@
+# This file was created Mon Jul 26 05:50:24 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1027_nvt100/water_1027_nvt100
+# Command line:
+#   gmx_mpi hbond -f md_227_233_concat_whole.xtc -s md_0_1.tpr -num hbond_227_233_nvt100.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.67123e+06           5           3
+1.67223e+06           4           7
+1.67323e+06           3           7
+1.67423e+06           3           9
+1.67523e+06           4           5
+1.67623e+06           4           3
+1.67725e+06           4           3
+1.67825e+06           4           2
+1.67925e+06           7          15
+1.68025e+06           3          10
+1.68125e+06           6           7
+1.68204e+06           6           3
+1.68304e+06           5           3
+1.68404e+06           4           7
+1.68504e+06           3           4
+1.68604e+06           6           8
+1.68751e+06           4           6
+1.68851e+06           5           7
+1.68951e+06           7           5
+1.69051e+06           6           7
+1.69151e+06           7           5
+1.69301e+06           5           4
+1.69401e+06           2           7
+1.69501e+06           5           6
+1.69601e+06           3           5
+1.69701e+06           5           8
+1.69801e+06           3           3
+1.69854e+06           3           4
+1.69954e+06           5           6
+1.70054e+06           4           6
+1.70154e+06           4           8
+1.70254e+06           4          11
+1.70354e+06           4           1
+1.70408e+06           3           4
+1.70508e+06           4          14
+1.70608e+06           3           6
+1.70708e+06           5           9
+1.70808e+06           2           4
+1.70908e+06           4           7

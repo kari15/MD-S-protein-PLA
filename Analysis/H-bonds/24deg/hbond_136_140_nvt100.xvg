@@ -1,0 +1,62 @@
+# This file was created Tue Mar 16 15:35:32 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1027_nvt100/water_1027_nvt100
+# Command line:
+#   gmx_mpi hbond -f md_136_140_concat_whole.xtc -s md_0_1.tpr -num hbond_136_140_nvt100.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.03459e+06           5           3
+1.03559e+06           6           5
+1.03659e+06           6           4
+1.03759e+06           5           4
+1.03859e+06           4           7
+1.03959e+06           5           3
+1.04059e+06           3           3
+1.04159e+06           5           4
+1.04231e+06           7           3
+1.04331e+06           5           9
+1.04431e+06           3           2
+1.04531e+06           4           6
+1.04631e+06           4           5
+1.04731e+06           4           3
+1.04831e+06           4          10
+1.04903e+06           2           7
+1.05003e+06           3           7
+1.05103e+06           3           3
+1.05203e+06           4           7
+1.05303e+06           6          14
+1.05403e+06           3           4
+1.05503e+06           5           8
+1.05563e+06           4          10
+1.05663e+06           4           9
+1.05763e+06           3           8
+1.05863e+06           3           5
+1.05963e+06           3           6
+1.06063e+06           7           7
+1.06163e+06           4           7
+1.06263e+06           3           5
+1.06315e+06           2           3
+1.06415e+06           3           5
+1.06515e+06           4           5
+1.06615e+06           3           5
+1.06715e+06           4           3
+1.06815e+06           3           2
+1.06915e+06           1           6

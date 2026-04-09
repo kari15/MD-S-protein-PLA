@@ -1,0 +1,87 @@
+# This file was created Fri Jul 23 21:37:37 2021
+# Created by:
+#     :-) GROMACS - gmx hbond, 2020.2-dev-20200430-5e78835-dirty-unknown (-:
+# 
+# Executable:   /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs/bin/gmx_mpi
+# Data prefix:  /gpfs/u/home/LCLB/LCLBhsgw/barn/install/gromacs
+# Working dir:  /gpfs/u/scratch/LCLB/LCLBhsgw/water_1027_nvt100/water_1027_nvt100
+# Command line:
+#   gmx_mpi hbond -f md_218_226_concat_whole.xtc -s md_0_1.tpr -num hbond_218_226_nvt100.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+1.60947e+06           4           5
+1.61047e+06           4           1
+1.61147e+06           5           6
+1.61247e+06           2           2
+1.61347e+06           4           7
+1.61447e+06           2           2
+1.61547e+06           7           5
+1.61647e+06           5           3
+1.61702e+06           4           5
+1.61802e+06           5           7
+1.61902e+06           3           6
+1.62002e+06           5           3
+1.62102e+06           5           2
+1.62202e+06           6           7
+1.62302e+06           7          10
+1.62402e+06           4           6
+1.62506e+06           3           3
+1.62606e+06           4           9
+1.62706e+06           4           5
+1.62806e+06           6           6
+1.62906e+06           6           4
+1.63006e+06           4           4
+1.63153e+06           2           1
+1.63253e+06           3           3
+1.63353e+06           5           4
+1.63453e+06           3           5
+1.63553e+06           6           4
+1.63653e+06           7           8
+1.63776e+06           6           7
+1.63876e+06           5           6
+1.63976e+06           4           3
+1.64076e+06           5           6
+1.64176e+06           3           3
+1.64276e+06           3           1
+1.64414e+06           3           3
+1.64514e+06           3           6
+1.64614e+06           4           6
+1.64714e+06           4           7
+1.64841e+06           5           0
+1.64941e+06           3           4
+1.65041e+06           6           5
+1.65141e+06           4           1
+1.65241e+06           4           7
+1.65341e+06           4           4
+1.65472e+06           5           6
+1.65572e+06           5           5
+1.65672e+06           5           3
+1.65772e+06           7           4
+1.65872e+06           8           3
+1.65972e+06           5           3
+1.66072e+06           7           6
+1.66172e+06           6           6
+1.66272e+06           3           7
+1.66345e+06           5           3
+1.66445e+06           2          10
+1.66545e+06           5           5
+1.66645e+06           4           9
+1.66745e+06           4           8
+1.66845e+06           5          11
+1.66945e+06           6           6
+1.67045e+06           6           5
+1.67145e+06           3           5
